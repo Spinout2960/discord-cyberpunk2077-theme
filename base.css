@@ -354,11 +354,6 @@
        background: var(--neon-red-color) !important;
    }
 
-/* Right border on left panels */
-#channels, .panels-3wFtMD, .scroller-WSmht3 {
-    border-right: 1px solid var(--background-modifier-accent);
-}
-
  /* ===============
      SERVERS AND WINDOW BAR
     ===============
