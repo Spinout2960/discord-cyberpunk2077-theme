@@ -1,5 +1,5 @@
 :root {
-    --background-primary: linear-gradient(180deg, rgba(51,0,10,.75) 20%, rgba(5,15,20,1) 80%;
+    --background-primary: linear-gradient(180deg, rgba(51,0,10,.75) 20%, rgba(5,15,20,1) 80%);
     --background-secondary: linear-gradient(180deg, rgba(5,10,15,0.5) 20%, rgba(5,15,20,1) 80%);
     --font-primary: 'Rajdhani';
     --primary-text-color: rgb(240, 240, 240);
