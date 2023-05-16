@@ -61,6 +61,15 @@
      font-family: var(--font-primary);
  }
 
+/* ================
+     CHAT CALL
+   ================
+*/
+
+.callContainer-HtHELf {
+    background: var(--background-secondary);
+}
+
  /* ===============
      TOP BAR WITH CHANNEL INFO AND ICONS
     ===============
@@ -354,6 +363,12 @@
        background: var(--neon-red-color) !important;
    }
 
+  /* Border on right of channels */
+
+   #channels, .panels-3wFtMD {
+       border-right: 1px solid var(--background-modifier-accent);
+   }
+
  /* ===============
      SERVERS AND WINDOW BAR
     ===============
@@ -635,7 +650,6 @@
 }
 
 .chatContent-3KubbW, .chatContent-3KubbW {
-    border-left: 1px solid var(--background-modifier-accent);
     border-right: 1px solid var(--background-modifier-accent);
 }
 
