@@ -616,6 +616,12 @@
     background: black !important;
 }
 
+.avatar-3FKimL {
+     border-radius: var(--avatar-circle);
+     border-bottom-right-radius: var(--avatar-rounded);
+     border: var(--avatar-border);
+ }
+
  /* ===============
      RIGHT FRIENDS LIST
     ===============
