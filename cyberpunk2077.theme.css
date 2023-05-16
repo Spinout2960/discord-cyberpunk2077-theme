@@ -9,7 +9,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani');
-@import url('https://raw.githubusercontent.com/Spinout2960/discord-cyberpunk2077-theme/main/base.css');
+@import url('https://github.com/Spinout2960/discord-cyberpunk2077-theme/blob/main/base.css');
 
 :root {
     --background-primary: linear-gradient(180deg, rgba(51,0,10,.75) 20%, rgba(5,15,20,1) 80%); /* Background gradient */
