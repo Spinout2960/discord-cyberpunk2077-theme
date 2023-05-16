@@ -570,7 +570,7 @@
  }
 
  /* Avatars in message section */
- .avatar-2e8lTP {
+ .avatar-2e8lTP, .avatar-3FKimL {
      border-radius: var(--avatar-circle);
      border-bottom-right-radius: var(--avatar-rounded);
      border: var(--avatar-border);
@@ -615,12 +615,6 @@
 .container-1zzFcN {
     background: black !important;
 }
-
-.avatar-3FKimL {
-     border-radius: var(--avatar-circle);
-     border-bottom-right-radius: var(--avatar-rounded);
-     border: var(--avatar-border);
- }
 
  /* ===============
      RIGHT FRIENDS LIST
