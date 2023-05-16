@@ -1,13 +1,13 @@
 :root {
-    --background-primary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
-    --background-secondary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
+    --background-primary: linear-gradient(180deg, rgba(51,0,10,.75) 20%, rgba(5,15,20,1) 80%;
+    --background-secondary: linear-gradient(180deg, rgba(5,10,15,0.5) 20%, rgba(5,15,20,1) 80%);
     --font-primary: 'Rajdhani';
-    --primary-text-color: lightgray;
+    --primary-text-color: rgb(240, 240, 240);
 
-    --primary: 23, 13, 22;
-    --red: 255, 0, 60;
-    --blue: 114, 234, 248;
-    --yellow: 243, 230, 0;
+    --primary: 24, 15, 22;
+    --red: 250, 76, 78;
+    --blue: 41, 255, 255;
+    --yellow: 255, 214, 64;
     --green: 71, 213, 139;
     --dark-green: 56, 171, 111;
 
@@ -30,7 +30,7 @@
     /* Variables for custiomization tool */
     --avatar-circle: 0;
     --avatar-rounded: 5px;
-    --avatar-border: 1px solid var(--neon-red-color);
+    --avatar-border: 1.5px solid var(--neon-red-color);
 
     /* Discord variables */
     --brand-experiment: var(--neon-red-color);
@@ -50,6 +50,7 @@
     --interactive-active: var(--neon-yellow-color);
     --search-popout-date-picker-hint-value-background-hover: rgba(var(--red), 0.8);
     --button-secondary-background: rgba(var(--blue), 0.75);
+    --background-secondary-alt: black;
  }
 
  /* ===============
@@ -352,6 +353,12 @@
    .containerDefault-YUSmu3 .list-2x9Cl9 .icons-2mwuFp .liveSmall-1Urjcy {
        background: var(--neon-red-color) !important;
    }
+
+/* Right border on left panels */
+#channels, .panels-3wFtMD, .scroller-WSmht3 {
+    border-right: 1px solid var(--background-modifier-accent);
+}
+
  /* ===============
      SERVERS AND WINDOW BAR
     ===============
@@ -359,6 +366,10 @@
  .guilds-2JjMmN .scroller-3X7KbA, .bg-1QIAus {
      background: black;
  }
+
+.guilds-2JjMmN { /* Yellow border */
+    border-right: 1px solid rgba(255, 214, 64, 0.5);
+}
 
  /* ===============
      MAIN CONTAINER WITH MESSAGES AND INPUT
@@ -623,6 +634,11 @@
     background: none;
 }
 
+/* Right friends list & user profile */
+.profilePanel-2VBkh8, .container-2o3qEW, .membersWrap-3NUR2t {
+    border-left: 1px solid var(--background-modifier-accent);
+}
+
 /* ===============
     PROFILE POPUP INFORMATIONS
    ===============
@@ -794,6 +810,26 @@
     border-bottom: 1px solid var(--dark-primary-color);
 }
 
+/* User Profile in DM */
+.mutualFriendsDivider-_X_dLc, .divider-2dDziJ { /* Red dividers */
+    border-top: 1px solid var(--neon-red-color);
+}
+
+.nickname-3P1RuO, .username-3JLfHz, .customStatus-19KW6v, .title-3CjiSS, .playTime-3fSgOm { /* Titles blue */
+    color: var(--neon-blue-color);
+}
+
+.discrimBase-v65kTs { /* Red # number */
+    color: var(--neon-red-color);
+}
+
+/* Background colours of user DM profile */
+.profileColors-2AgAV4 {
+    --profile-gradient-primary-color: var(--primary-color);
+    --profile-gradient-secondary-color: var(--primary-color);
+    --profile-body-background-color: rgb(10, 0, 0);
+}
+
  /* ===============
      LEFT SERVERS LIST BAR
     ===============
@@ -817,7 +853,7 @@
 }
 
 /* Discord logo color */
-.listItemWrapper-3d87LP .wrapper-28eC3z .homeIcon-r0w4ny {
+.homeIcon-r0w4ny {
     color: var(--neon-red-color);
 }
 
