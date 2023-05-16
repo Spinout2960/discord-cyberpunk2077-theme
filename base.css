@@ -635,8 +635,13 @@
 }
 
 /* Right friends list & user profile */
-.profilePanel-2VBkh8, .chatContent-3KubbW {
+.profilePanel-2VBkh8 {
     border-left: 1px solid var(--background-modifier-accent);
+}
+
+.chatContent-3KubbW, .chatContent-3KubbW{
+    border-left: 1px solid var(--background-modifier-accent);
+    border-right: 1px solid var(--background-modifier-accent);
 }
 
 /* ===============
