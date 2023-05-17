@@ -815,16 +815,40 @@
     border-bottom: 1px solid var(--dark-primary-color);
 }
 
-/* User Profile in DM */
-.mutualFriendsDivider-_X_dLc, .divider-2dDziJ { /* Red dividers */
+/* ===============
+    User Profile in DM
+   ===============
+*/
+
+/* Red dividers */
+.mutualFriendsDivider-_X_dLc, .divider-2dDziJ {
     border-top: 1px solid var(--neon-red-color);
 }
 
-.nickname-3P1RuO, .username-3JLfHz, .customStatus-19KW6v, .title-3CjiSS, .playTime-3fSgOm { /* Titles blue */
+/* Stop profile picture from shifting right when adding border */
+.svg-1G_H_8 {
+    position: relative;
+}
+
+/* Square profile picture */
+.bannerSVGWrapper-2CLfzN foreignObject, .svg-1G_H_8 foreignObject {
+    mask: none;
+}
+
+/* Border around profile picture */
+.svg-1G_H_8 foreignObject {
+    border-radius: var(--avatar-circle);
+    border-bottom-right-radius: 10px;
+    border: var(--avatar-border);
+}
+
+/* Titles blue */
+.nickname-3P1RuO, .username-3JLfHz, .customStatus-19KW6v, .title-3CjiSS, .playTime-3fSgOm {
     color: var(--neon-blue-color);
 }
 
-.discrimBase-v65kTs { /* Red # number */
+/* Red # number */
+.discrimBase-v65kTs {
     color: var(--neon-red-color);
 }
 
