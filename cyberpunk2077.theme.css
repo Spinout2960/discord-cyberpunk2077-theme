@@ -26,6 +26,6 @@
 
     --avatar-circle: 0; /* Square avatar */
     --avatar-rounded: 5px; /* Square avatars */
-    --avatar-border: 1.5px solid var(--neon-red-color); /* Border of avatar */
+    --avatar-border: 1px solid var(--neon-red-color); /* Border of avatar */
     --background-secondary-alt: black;
 }
