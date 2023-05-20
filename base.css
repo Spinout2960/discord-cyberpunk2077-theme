@@ -847,6 +847,13 @@
     border: var(--avatar-border);
 }
 
+/* All other profile borders */
+.avatar-6qzftW .svg-1G_H_8 foreignObject, .typingDots-1Y8dki .svg-1G_H_8 foreignObject, .root-22AK9z .svg-1G_H_8 foreignObject {
+    border-radius: var(--avatar-circle);
+    border-bottom-right-radius: var(--avatar-rounded);
+    border: var(--avatar-border);
+}
+
 /* Titles blue */
 .nickname-3P1RuO, .username-3JLfHz, .customStatus-19KW6v, .title-3CjiSS, .playTime-3fSgOm {
     color: var(--neon-blue-color);
