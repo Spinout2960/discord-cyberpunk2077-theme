@@ -30,7 +30,7 @@
     /* Variables for custiomization tool */
     --avatar-circle: 0;
     --avatar-rounded: 5px;
-    --avatar-border: 1.5px solid var(--neon-red-color);
+    --avatar-border: 1px solid var(--neon-red-color);
 
     /* Discord variables */
     --brand-experiment: var(--neon-red-color);
