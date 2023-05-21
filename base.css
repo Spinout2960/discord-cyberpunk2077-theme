@@ -846,14 +846,14 @@
 }
 
 /* Border around profile picture */
-.svg-1G_H_8 foreignObject {
+.svg-1G_H_8 foreignObject, .root-22AK9z .svg-1G_H_8 foreignObject {
     border-radius: var(--avatar-circle);
     border-bottom-right-radius: 10px;
     border: var(--avatar-border);
 }
 
 /* All other profile borders */
-.avatar-6qzftW .svg-1G_H_8 foreignObject, .typingDots-1Y8dki .svg-1G_H_8 foreignObject, .root-22AK9z .svg-1G_H_8 foreignObject {
+.avatar-6qzftW .svg-1G_H_8 foreignObject, .typingDots-1Y8dki .svg-1G_H_8 foreignObject {
     border-radius: var(--avatar-circle);
     border-bottom-right-radius: var(--avatar-rounded);
     border: var(--avatar-border);
