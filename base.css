@@ -278,6 +278,12 @@
     ===============
  */
 
+/* Remove padding above channel groups to make it the same size as default Discord - see below rule how it adds 10px more to default height. This rule removes 10px of padding on top */
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 { 
+    position: relative;
+    padding-top: 6px;
+}
+
  /* Channel category bar */
  .wrapper-1S43wv {
      position: relative;
